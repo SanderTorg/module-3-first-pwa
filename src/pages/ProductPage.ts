@@ -43,17 +43,17 @@ function renderProductsTemplate(products: Product[] = []) {
     `;
 }
 
-const loadingTemplate = `
-      <div class="page-container">
-        <div class="search-section">
-          <input type="text" class="search-input" placeholder="Search products..." />
-        </div>
-        <div class="loading">
-          <div class="spinner"></div>
-          <p>Loading products...</p>
-        </div>
-      </div>
-    `;
+// const loadingTemplate = `
+//       <div class="page-container">
+//         <div class="search-section">
+//           <input type="text" class="search-input" placeholder="Search products..." />
+//         </div>
+//         <div class="loading">
+//           <div class="spinner"></div>
+//           <p>Loading products...</p>
+//         </div>
+//       </div>
+//     `;
 
 const errorTemplate = `
 <div class="page-container">
