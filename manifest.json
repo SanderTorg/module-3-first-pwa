@@ -1,0 +1,42 @@
+{
+  "name": "My Typescript SPA",
+  "short_name": "My SPA",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "theme_color": "#3367D6",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./src/images/icons/iconsquere.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./src/images/icons/bigIcon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./src/images/icons/bigIcon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "form_factor": "narrow"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./src/images/icons/screenshot.png",
+      "type": "image/png",
+      "sizes": "455x455",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./src/images/icons/bigIcon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
